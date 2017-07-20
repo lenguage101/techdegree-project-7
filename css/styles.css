@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+}
+.container {
+	width: 100%;
+	padding-top: 30px;
+}
+video {
+	width: 100%!important;
+	height: auto;
+}
+.content {
+	font-family: 'Roboto', sans-serif;
+	padding-top: 20px;
+	width: 95%;
+	margin: 0 auto;
+} 
+span {
+	line-height: 36px;
+}
+.highlight {
+	color: 	#f00;
+	background-color: #ff0;
+}
+@media screen and (min-width: 768px){
+	.container {
+		width: 70%!important;
+		margin: 0 auto!important;
+	}
+};
