@@ -5,9 +5,11 @@
 	width: 100%;
 	padding-top: 30px;
 }
-video {
+video, 
+.mejs__player,
+.mejs__overlay.mejs__layer.mejs__overlay-play {
 	width: 100%!important;
-	height: auto;
+	height: 30vh!important;
 }
 .content {
 	font-family: 'Roboto', sans-serif;
@@ -22,9 +24,33 @@ span {
 	color: 	#f00;
 	background-color: #ff0;
 }
+
+@media screen and (min-width: 320px){
+	video, 
+	.mejs__player,
+	.mejs__overlay.mejs__layer.mejs__overlay-play {
+		width: 100%!important;
+		height: 40vh!important;
+	}
+}
+
 @media screen and (min-width: 768px){
 	.container {
-		width: 70%!important;
+		width: 70%;
 		margin: 0 auto!important;
 	}
-};
+	video, 
+	.mejs__player,
+	.mejs__overlay.mejs__layer.mejs__overlay-play{
+		width: 100%!important;
+		height: 55vh!important;
+	}
+}
+@media screen and (min-width: 1366px){
+	video, 
+	.mejs__player,
+	.mejs__overlay.mejs__layer.mejs__overlay-play{
+		width: 100%!important;
+		height: 100vh!important;
+	}
+}
